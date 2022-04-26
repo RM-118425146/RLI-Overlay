@@ -1,0 +1,105 @@
+<html>
+<head>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+<div>
+  <link href="CSS/RLI Overlay.css" rel="stylesheet" />
+  <div class="base">
+    <div class="topScreen">
+      <div class="scoreLeft">
+        <div class="logo">
+          <img src="Images/Logos/rli_logo.png" style="height:114px; width:auto;"/>
+        </div>
+        <div class="logoBottom"><span class="timeTextLeft">TIME:</span></div>
+      </div>
+      <div class="ScoreMiddle">
+        <div class="scoreMiddleUpper">
+          <div class="blueName">
+            <span class="blueNameText">Blue Team</span>
+            <div class="blueGameScore">
+              <span class="blueGameScoreText">0</span>
+            </div>
+          </div>
+          <div class="orangeName">
+            <span class="orangeNameText">Orange Team</span>
+            <div class="orangeGameScore">
+              <span class="orangeGameScoreText">0</span>
+            </div>
+          </div>
+        </div>
+        <div class="scoreMiddleLower">
+          <span class="timeTextRight">00:00</span>
+        </div>
+      </div>
+      <div class="SeriesScore" id="SeriesScore">
+        <div class="SeriesScoreUpper">
+          <div class="BlueScore">
+            <span class="BlueText1" id="BlueText1">/</span>
+            <span class="BlueText2" id="BlueText2">/</span>
+            <span class="BlueText3" id="BlueText3">/</span>
+            <span class="BlueText4" id="BlueText4">/</span>
+          </div>
+          <div class="OrangeScore">
+            <span class="OrangeText1" id="OrangeText1">/</span>
+            <span class="OrangeText2" id="OrangeText2">/</span>
+            <span class="OrangeText3" id="OrangeText3">/</span>
+            <span class="OrangeText4" id="OrangeText4">/</span>
+          </div>
+        </div>
+        <div class="SeriesScoreLower"><span class="SeriesScoreText">Bo7</span></div>
+      </div>
+    </div>
+    <div class="Spacer"></div>
+    <div class="bottomScreen">
+
+      <div class="playerCard" id="playerCard">
+        <div class="playerName" id="playerName" style="background-colour: #199033;">
+          <span class="playerNameOuter">
+            <span class="playerNameInner">PLAYER NAME</span>
+          </span>
+        </div>
+        <div class="playerStats" id="playerStats" style="background-colour: #32A94C;">
+          <div class="playerGoals">
+            <span class="playerGoalsText">GOALS</span>
+            <span class="playerGoalsAmount">0</span>
+          </div>
+          <div class="playerShots">
+            <span class="playerShotsText">SHOTS</span>
+            <span class="playerShotsAmount">0</span>
+          </div>
+          <div class="playerAssists">
+            <span class="playerAssistsText">ASSISTS</span>
+            <span class="playerAssistsAmount">0</span>
+          </div>
+          <div class="playerSaves">
+            <span class="playerSavesText">SAVES</span>
+            <span class="playerSavesAmount">0</span>
+          </div>
+        </div>
+        <div class="playerBoost" id="playerBoost"><span class="playerBoostAmount">0</span></div>
+      </div>
+
+      <div class="bottomSpacer"></div>
+      <div class="replayCard" id="replayStats">
+        <div class="replayUpper" id="replayUpper">
+          <span class="replayNameOuter">
+            <span class="replayNameInner">PLAYER NAME</span>
+          </span>
+        </div>
+        <div class="replayLower" id="replayLower">
+          <div class="replayAssister" id="assister">
+            <span class="replayAssisterText" id="assisterLabel">Assist</span>
+            <span class="replayAssisterName" id="assisterName">0</span>
+          </div>
+          <div class="replayGoalSpeed" id="goalSpeed">
+            <span class="replaySpeedText">Speed</span>
+            <span class="replaySpeedAmount">0</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+<script src="JS/RLI Overlay.js"></script>
+</html>
