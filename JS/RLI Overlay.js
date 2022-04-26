@@ -374,5 +374,4 @@ $(() => {
 	WsSubscribers.subscribe("game", "replay_end", (e) => {
 	  document.getElementById('replayStats').style.visibility = 'hidden';
 	});
-
 });
