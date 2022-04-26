@@ -1,8 +1,10 @@
 # <img src="Images/Logos/rli_logo.png" align="center" height="48" width="48"> **RLI Overlay Links** <img src="Images/Logos/rli_logo.png" align="center" height="48" width="48">
 
-## [**RLI Overlay**](https://rm-118425146.github.io/RLI-Overlay/RLI-Overlay.html)
+## [**RLI Overlay:**](https://rm-118425146.github.io/RLI-Overlay/RLI-Overlay.html)
+- set this as a browser source above gameplay
 
-## [**Overlay Control**](https://rm-118425146.github.io/RLI-Overlay/OverlayControl.html)
+## [**Overlay Control:**](https://rm-118425146.github.io/RLI-Overlay/OverlayControl.html)
+- Set this as a browser source below gameplay and click interact
 
 ### **How to set up overlay**
 
