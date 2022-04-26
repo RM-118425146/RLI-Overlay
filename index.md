@@ -1,3 +1,5 @@
+<link rel="shortcut icon" type="image/x-icon" href="Images/Logos/rli_logo.png">
+  
 # <img src="Images/Logos/rli_logo.png" align="center" height="48" width="48"> **RLI Overlay Links** <img src="Images/Logos/rli_logo.png" align="center" height="48" width="48">
 
 ## [**RLI Overlay:**](https://rm-118425146.github.io/RLI-Overlay/RLI-Overlay.html)
