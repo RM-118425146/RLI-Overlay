@@ -18,7 +18,7 @@
 
 **Links:**
 - [Bakkesmod sos plugin (requires manual install)](https://gitlab.com/bakkesplugins/sos/sos-plugin/-/releases)
-- [sos-ws-relay (requires node.js to work)](https://gitlab.com/bakkesplugins/sos/sos-ws-relay)
+- [sos-ws-relay (requires node.js to work & instructions in README file)](https://gitlab.com/bakkesplugins/sos/sos-ws-relay)
 
 **Video Tutorial:**
 - [Full tutorial on how to install everything required](https://www.youtube.com/watch?v=QE816DBuwI4&t=214s)
