@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c4a3d6c1-d5b4-47e1-8870-f5326825db75" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Images/Logos/rli_logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JS/RLI Overlay.js" beforeDir="false" afterPath="$PROJECT_DIR$/JS/RLI Overlay.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/RLI-Overlay.html" beforeDir="false" afterPath="$PROJECT_DIR$/RLI-Overlay.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />

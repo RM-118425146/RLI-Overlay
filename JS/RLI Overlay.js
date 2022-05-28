@@ -123,10 +123,29 @@ const WsSubscribers = {
 $(() => {
 	WsSubscribers.init(49322, true)
 	WsSubscribers.subscribe("game", "update_state", (d) => {
-		$(".base .topScreen .ScoreMiddle .scoreMiddleUpper .blueName .blueNameText").text(d['game']['teams'][0]['name']);
+	    var blueName = d['game']['teams'][0]['name'];
+	    var orangeName = d['game']['teams'][1]['name'];
+		$(".base .topScreen .ScoreMiddle .scoreMiddleUpper .blueName .blueNameText").text(blueName);
 		$(".base .topScreen .ScoreMiddle .scoreMiddleUpper .blueName .blueGameScore .blueGameScoreText").text(d['game']['teams'][0]['score']);
-		$(".base .topScreen .ScoreMiddle .scoreMiddleUpper .orangeName .orangeNameText").text(d['game']['teams'][1]['name']);
+		$(".base .topScreen .ScoreMiddle .scoreMiddleUpper .orangeName .orangeNameText").text(orangeName);
 		$(".base .topScreen .ScoreMiddle .scoreMiddleUpper .orangeName .orangeGameScore .orangeGameScoreText").text(d['game']['teams'][1]['score']);
+
+        console.log(blueName.length);
+		if (blueName.length > 9 && blueName.length < 13){
+		    document.getElementById('blueNameText').style.fontSize = '15px';
+		}else if(blueName.length > 14){
+		    document.getElementById('blueNameText').style.fontSize = '14px';
+		}else{
+		    document.getElementById('blueNameText').style.fontSize = '20px';
+		}
+
+		if (orangeName.length > 9 && orangeName.length < 13){
+		   document.getElementById('orangeNameText').style.fontSize = '15px';
+		}else if(blueName.length > 14){
+            document.getElementById('orangeNameText').style.fontSize = '14px';
+        }else{
+            document.getElementById('orangeNameText').style.fontSize = '20px';
+        }
 
 		var timeLeft = parseInt(d['game']['time_seconds']);
 		var m = Math.floor(timeLeft/60);
