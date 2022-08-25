@@ -140,7 +140,7 @@ $(() => {
 
 		if (orangeName.length > 9 && orangeName.length < 13){
 		   document.getElementById('orangeNameText').style.fontSize = '15px';
-		}else if(blueName.length > 14){
+		}else if(orangeName.length > 14){
             document.getElementById('orangeNameText').style.fontSize = '14px';
         }else{
             document.getElementById('orangeNameText').style.fontSize = '20px';
