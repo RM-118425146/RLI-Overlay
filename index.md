@@ -22,3 +22,6 @@
 
 **Video Tutorial:**
 - [Full tutorial on how to install everything required](https://www.youtube.com/watch?v=QE816DBuwI4&t=214s)
+
+**Step by Step Instructions:**
+- [Full walkthrough of how to get overlay setup](https://docs.google.com/document/d/1u8CGr_7fkjg3YIlFRe_cG1DDr4PDCnPMOh04msbkjts/edit?usp=sharing)
